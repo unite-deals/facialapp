@@ -56,7 +56,7 @@ def main():
     ###################################################
     st.sidebar.header("About")
     st.sidebar.info("This webapp gives a demo of Visitor Monitoring "
-                    "Webapp using 'Face Recognition' and Streamlit")
+                    "Webapp using 'Face Recognition' and AI based monitoring for multiple use cases like attendance etc")
     ###################################################
 
     selected_menu = option_menu(None,
