@@ -1,0 +1,18 @@
+name: dlib
+channels:
+  - conda-forge
+dependencies:
+  - streamlit >= 0.73
+  - dlib
+  - wheel
+  - numpy
+  - pandas
+  - plotly
+  - opencv-contrib-python
+  - cmake
+  - face_recognition
+  - freeglut3-dev
+  - libgtk2.0-dev
+  - streamlit
+  - streamlit_option_menu==0.3.2
+  - opencv-python-headless
