@@ -4,7 +4,8 @@ pandas
 plotly
 opencv-contrib-python
 cmake
-dlib
 face_recognition
 streamlit
 streamlit_option_menu==0.3.2
+opencv-python-headless
+dlib-bin
