@@ -4,6 +4,17 @@ from streamlit_option_menu import option_menu
 from settings import *
 #######################################################
 ## Disable Warnings
+hide_github_link_style = """
+    <style>
+    #MainMenu {visibility: hidden;}
+    footer {visiblity: hidden;}
+    header {visibility: hidden;}
+        .viewerBadge_container__1QSob {
+            display: none !important;
+        }
+    </style>
+"""
+st.markdown(hide_github_link_style, unsafe_allow_html=True)
 st.set_option('deprecation.showPyplotGlobalUse', False)
 st.set_option('deprecation.showfileUploaderEncoding', False)
 ################################################### Defining Static Data ###############################################
