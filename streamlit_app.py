@@ -4,6 +4,8 @@ from streamlit_option_menu import option_menu
 from settings import *
 #######################################################
 ## Disable Warnings
+
+
 hide_github_link_style = """
     <style>
     #MainMenu {visibility: hidden;}
@@ -14,6 +16,7 @@ hide_github_link_style = """
         }
     </style>
 """
+
 st.markdown(hide_github_link_style, unsafe_allow_html=True)
 st.set_option('deprecation.showPyplotGlobalUse', False)
 st.set_option('deprecation.showfileUploaderEncoding', False)
