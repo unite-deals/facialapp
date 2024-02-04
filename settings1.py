@@ -29,7 +29,7 @@ if not DOWNLOADS_PATH.is_dir():
 
 LOG_DIR = (STREAMLIT_STATIC_PATH / "logs")
 if not LOG_DIR.is_dir():
-    LOG_DIR.mkdir()
+    pathlib.Path(HOME_DIR) / ".streamlit" / "logs"
 
 OUT_DIR = (STREAMLIT_STATIC_PATH / "output")
 if not OUT_DIR.is_dir():
