@@ -2,7 +2,6 @@ wheel
 numpy
 pandas
 plotly
-#opencv-contrib-python
 cmake
 libgl1
 mediapipe
@@ -10,5 +9,4 @@ streamlit
 streamlit_option_menu==0.3.2
 opencv-python-headless
 pandas==1.4.1
-#opencv-python==4.5.3.56
 Pillow==8.2.0
