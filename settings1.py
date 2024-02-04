@@ -33,7 +33,7 @@ if not LOG_DIR.is_dir():
 
 OUT_DIR = (STREAMLIT_STATIC_PATH / "output")
 if not OUT_DIR.is_dir():
-    OUT_DIR.mkdir()
+    OUT_DIR = pathlib.Path(HOME_DIR) / ".streamlit" / "output"
 
 VISITOR_DB = os.path.join(ROOT_DIR, "visitor_database")
 # st.write(VISITOR_DB)
